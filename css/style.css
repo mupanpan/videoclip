@@ -1,0 +1,252 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+body {
+    background-color:#F5F5F5;
+    font-family: "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;    
+}
+
+header {
+    width:100%;
+    height:550px;
+    margin:0 auto;
+    text-align: center;    
+}
+
+header .banner {
+    width:100%;
+    height:500px;
+    margin:0;
+    background: url("../res/facetr2.jpg") no-repeat center top;
+}
+
+/* .banner .title {
+    font-family: "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color:#fff;
+    font-size: 44px;
+    padding-top:125px;
+} */
+
+.banner .context{ width: 1100px; height: 250px; position: absolute; top:30%; left: 50%; margin-top: -125px; margin-left: -550px; }
+.banner .title{width: 100%;text-align: center;font-size: 44px;color: #fff;line-height: 60px;margin-bottom: 40px;}
+.banner .someinfo{ width: 100%; height: 18px; line-height: 16px; text-align: center;margin-bottom: 50px; }
+.banner .someinfo .info{ display: inline-block; margin-right: 90px; color: #fff; font-size: 18px; line-height: 1; }
+.banner .someinfo .info:last-child{ margin-right: 0; }
+.banner .someinfo .info .dian{ display: inline-block; width: 14px; height: 14px; margin-right: 8px; border-radius: 50%; background-color: #2fab99; }
+.banner .someinfo .info .assess-score{ display: inline-block; vertical-align: bottom; margin-bottom: 0; }
+.banner .someinfo .info .btn-group.bootstrap-select{ width: auto; max-width: 200px; }
+.banner .someinfo .info .btn{ padding: 1px 12px; padding-right: 25px; }
+.banner .rela-btn{ width: 100%; text-align: center; margin-bottom: 16px; }
+.banner .rela-btn .btn2{ display: inline-block; width: 180px; margin: 0 26px; background-color: #f89b38;  border-radius: 4px; font-size: 18px; color: #fff; line-height: 40px; text-decoration: none;}
+.banner .rela-btn .btn2.not-allow{ background-color: #ccc; color: #999; cursor: no-drop; }
+.banner .rela-btn .btn1{ display: inline-block; width: 180px; margin: 0 26px; border-radius: 4px;  border: solid 1px #f89b38; font-size: 18px; color: #f89b38; line-height: 40px; text-decoration: none;}
+.banner .rela-btn .btn1:hover{ background-color: #f89b38; color: #fff; }
+
+nav {
+    width:100%;
+    height:60px;
+    margin:0px auto;    
+    background-color:#575757;
+    color:#fff;
+    text-align: center;
+    line-height: 60px;
+    display: block;
+}
+
+nav ul {margin:auto;list-style: none;display: inline-block;}
+nav ul li {float:left; height:60px;}
+nav ul li:first-child{margin-left: 0;}
+
+nav ul li a {
+    display:block;
+    font-size:18px;
+    height:60px;
+    line-height: 60px; 
+    background-color: #575757;  
+    padding:0 20px;
+}
+
+@media screen and (max-device-width: 768px) {
+    nav ul {width: 100%; margin:0 auto;list-style: none;display: inline-block;}
+    nav ul li a {
+        padding:0 10px;
+    }
+}
+
+@media screen and (max-width: 1463px) {
+    nav ul {width: 100%; margin:0 auto;list-style: none;display: inline-block;}
+    nav ul li a {
+        padding:0 10px;
+    }
+}
+
+nav ul li a:link {
+    text-decoration: none;
+    color:#fff;
+}
+
+nav ul li a:hover {
+    background-color: #fff; 
+    color:#575757;     
+}
+
+a:visited { color:#fff }
+a:focus{outline: none}
+
+
+section {
+    width:80%;
+    height:auto;
+    padding:0;
+    margin:10px auto;
+    background-color: #fff;    
+}
+
+section .title {
+    color: #555;
+    border-left: 5px #00FFFF solid;
+    font-family: "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif; 
+    margin-top: 40px;
+    margin-bottom:10px;
+    font-size: 24px;
+    width:80%;
+    margin:0 auto;
+}
+
+.container {
+    width:80%;
+    margin:0 auto;
+}
+
+.container p {
+    font-family: "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial,
+        sans-serif;
+    margin: 10px auto;
+    text-indent: 2em;
+    font-size: 17.3px;
+    line-height: 1.75em;
+    color: #333;
+}
+
+.container p.thick {
+    font-weight: bold;
+}
+
+.container p a {
+    color: #0000ff;
+}
+
+.container p a:hover {
+    color: #ff0000;
+}
+
+.container img {
+    max-width: 60%;
+    height: auto;
+    margin-top: 10px;
+}
+
+.container h1 {
+    color: #555;
+    font-family: "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial,
+        sans-serif;
+}
+
+.container h3 {
+    color: #444;
+    font-family: "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial,
+        sans-serif;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.contentA {
+    width: 100%;
+    background-color:#fff;   
+    padding:0;
+    margin:10px auto;
+}
+
+.contentB {
+    width: 100%;
+    background-color: #ddd;
+    padding:0;
+    margin:10px auto;
+}
+
+.video_box {
+    display:flex;
+    justify-content: center;
+}
+
+.video_item {
+    width:40%;
+    height:auto;
+    margin-left:20px;
+    margin-right:20px;    
+}
+
+.video_item .video_title {
+    font-family: "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-top:10px;
+    margin-bottom: 10px;    
+    font-size: 16px;  
+    color: #444; 
+    text-align: center;    
+}
+
+.contentA .title {
+    color: rgb(10, 123, 228);    
+    font-family: "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold; 
+    margin-top: 40px;
+    margin-bottom:10px;
+    font-size: 24px;
+    margin:0 auto;
+    text-align: center;
+}
+
+.contentB .title {
+    color: rgb(10, 123, 228);
+    font-family: "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif; 
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom:10px;
+    font-size: 24px;
+    margin:0 auto;
+    text-align: center;
+}
+
+
+.container2 {
+    width:1000px;
+    margin:auto;
+}
+
+.container2 p {
+    font-family: "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial,
+        sans-serif;
+    margin: 10px auto;
+    text-indent: 2em;
+    font-size: 17.3px;
+    line-height: 1.75em;
+    color: #333;
+}
+
+footer { 
+    height: 160px; 
+    width:100%; 
+    padding: 0;
+    background: #333;    
+}
+
+footer .foot_box{ width: 80%; margin: 0 auto; }
+.foot_box .foot_title{ font-size: 16px; line-height: 1; margin-bottom: 26px; margin-top: 32px; color: #fff; }
+.foot_box .foot_tip{ font-size: 14px; color: #ccc; line-height: 1; }
+
+.left{
+    float:left;
+}
+
