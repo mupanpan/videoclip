@@ -197,6 +197,30 @@ section .title {
     text-align: center;    
 }
 
+.image_box {
+    padding-top: 40px;
+    display:flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.image_item {
+    width: 200px;
+    height: 400px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+
+.image_item img{
+    width: 200px;
+    height: auto;
+}
+
+.image_item h4 {
+    font-weight: normal;
+}
+
 .contentA .title {
     color: rgb(10, 123, 228);    
     font-family: "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
